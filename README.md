@@ -1,31 +1,44 @@
-# React + TypeScript + Vite
+# 🧮 Calculation_Tips – React Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Calculation_Tips** is a beginner-friendly React app that helps you quickly calculate tips based on a given bill amount and percentage.  
+It was built as a learning project to get comfortable with **React**, component structure, props, state, and user input handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose
 
-## Expanding the ESLint configuration
+This project was created as part of my journey learning **React**. It’s simple, clean, and focused on applying core concepts like:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Functional components
+- `useState` hooks
+- Controlled inputs
+- Basic math operations in the UI
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🛠️ Tech Stack
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# calculadora_propinas_React
+| Tech        | Purpose                        |
+|-------------|--------------------------------|
+| **React**   | UI framework                   |
+| **Vite**    | Fast development tooling       |
+| **Tailwind CSS** | Lightweight styling       |
+
+---
+
+## ✨ Features
+
+- 🧮 Automatic total and tip calculation
+- ✨ Clean, responsive UI with Tailwind
+  
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ANavas07/calculation_tips.git
+cd calculation_tips
+npm install
+npm run dev
